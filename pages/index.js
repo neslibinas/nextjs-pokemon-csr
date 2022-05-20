@@ -21,7 +21,7 @@ export default function Home() {
       <Head>
         <title>CSR</title>
       </Head>
-      <h2>Client side rendering</h2>
+      <h2>Client side rendering __</h2>
       <div className={styles.grid}>
         {pokemon.map((pokemon) => (
           <div className={styles.card} key={pokemon.id}>
